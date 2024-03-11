@@ -1,4 +1,5 @@
 using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace VariableOpdracht4
 {
@@ -10,6 +11,8 @@ namespace VariableOpdracht4
 
             //maak een variable die constant is
             //vergeet het type niet!
+            const string = "Hallo world"
+            const int Days = 7
 
             ???? helloWorldConstante = "Hello world!";
             Console.WriteLine(????);
