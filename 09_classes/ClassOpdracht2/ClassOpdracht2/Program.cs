@@ -7,10 +7,12 @@ namespace ClassOpdracht2
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-            //maak hier een variable aan met type ShopGreeter
 
-            //roep de function greetcustomer aan
-			????
+            // Maak een instantie van ShopGreeter
+            ShopGreeter greeter = new ShopGreeter();
+
+            // Roep de methode GreetCustomer aan van de ShopGreeter instantie
+            greeter.GreetCustomer();
         }
     }
 }
