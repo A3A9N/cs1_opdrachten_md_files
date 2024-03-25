@@ -12,10 +12,7 @@ namespace IfOpdracht1
             int nummerB = 2;
             int nummerC = 1;
 
-
-            
-
-            if(false)//vervang false met een test of nummerA gelijk is aan nummerB
+            if (nummerA == nummerB)
             {
                 Console.WriteLine("nummerA is gelijk aan nummerB");
             }
@@ -24,9 +21,7 @@ namespace IfOpdracht1
                 Console.WriteLine("nummerA is niet gelijk aan nummerB");//deze moet je zien
             }
 
-
-
-            if (false)//vervang false met een test of nummerA gelijk is aan nummerC
+            if (nummerA == nummerC)
             {
                 Console.WriteLine("nummerA is gelijk aan nummerC");//deze moet je zien
             }
@@ -35,22 +30,15 @@ namespace IfOpdracht1
                 Console.WriteLine("nummerA is niet gelijk aan nummerC");
             }
 
-
-
-            if (false)//vervang false met een test of nummerA + nummerC gelijk is aan nummerB
+            if (nummerA + nummerC == nummerB)
             {
                 Console.WriteLine("nummerA+ nummerC is gelijk aan nummerB");//deze moet je zien
             }
 
-
-            if (false)//vervang false met een test of nummerA NIET (!) gelijk is aan nummerB
+            if (nummerA != nummerB)
             {
                 Console.WriteLine("nummerA is niet gelijk aan nummerB");//deze moet je zien
             }
-
-
-
-
         }
     }
 }
