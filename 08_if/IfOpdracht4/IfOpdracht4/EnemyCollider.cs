@@ -4,15 +4,17 @@
     {
         internal bool CanPassWall(Enemy enemy)
         {
-            //gebruik hier een || (OR)
-			//je kan enemy.??? gebruiken om de eigenschap te testen, bv voor flying wordt het enemy.flying
-            return false;//vervang false, een enemy mag door een muur als 1 van  (flying,incoporial,subterranian) true is;
+            // gebruik hier een || (OR)
+            // je kan enemy.??? gebruiken om de eigenschap te testen, bv voor flying wordt het enemy.flying
+            return enemy.flying || enemy.incoporial || enemy.subterranian;
+            // vervang false, een enemy mag door een muur als 1 van (flying, incoporial, subterranian) true is;
         }
         internal bool CanPassWater(Enemy enemy)
         {
-            //gebruik hier een || (OR)
-			//je kan enemy.??? gebruiken om de eigenschap te testen, bv voor flying wordt het enemy.flying
-            return false;//vervang false, een enemy mag door een muur als 1 van  (flying,incoporial,subterranian,swimmer) true is;
+            // gebruik hier een || (OR)
+            // je kan enemy.??? gebruiken om de eigenschap te testen, bv voor flying wordt het enemy.flying
+            return enemy.flying || enemy.incoporial || enemy.subterranian || enemy.swimmer;
+            // vervang false, een enemy mag door water als 1 van (flying, incoporial, subterranian, swimmer) true is;
         }
     }
 }
