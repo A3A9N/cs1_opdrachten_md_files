@@ -8,16 +8,13 @@ namespace ForOpdracht5
         {
             Console.WriteLine("Hello, World!");
 
-            int[] nummers = new int[] { 0,1,2,3,4,5,6,7,8,9};
+            int[] nummers = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
-            //zorg ervoor dat alleen 3 tot en met 7 op de console komen,
-            //doe dit door de start ( i= 0) en tot (nummers.length) van de for aan te passen
-            for (int i = 0; i < nummers.Length; i++)
+            // Pas de for-loop aan zodat alleen nummers 3 tot en met 7 op de console komen
+            for (int i = 3; i <= 7; i++)
             {
                 Console.WriteLine(nummers[i]);
             }
-
-            
         }
     }
 }

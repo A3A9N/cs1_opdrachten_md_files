@@ -13,8 +13,12 @@ namespace ForOpdracht1
 
             //in de for loop schrijf je nu een Console.WriteLine() met tussen de haakjes straten[i]
 
+            for (int i = 0; i < straten.Length; i++)
+            {
+                Console.WriteLine(straten[i]);
+            }
             //run het programma (groene play knop) wat gebeurt er?
-           
+
 
 
 
