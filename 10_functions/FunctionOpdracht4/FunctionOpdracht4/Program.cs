@@ -6,8 +6,7 @@ namespace FunctionOpdracht4
     {
         static void Main(string[] args)
         {
-            Program program= new Program();
-
+            Program program = new Program();
 
             int result = program.AddNumbers(2, 6, 18);
 
@@ -15,9 +14,11 @@ namespace FunctionOpdracht4
             Console.WriteLine(result);
         }
 
-
-        //1) maak hier een function AddNumbers die 3 argumenten heeft
-        //2) de function telt de 3 argumenten bij elkaar op en geeft dat als resultaat terug
-
+        // 1) Maak hier een function AddNumbers die 3 argumenten heeft
+        // 2) De function telt de 3 argumenten bij elkaar op en geeft dat als resultaat terug
+        private int AddNumbers(int a, int b, int c)
+        {
+            return a + b + c;
+        }
     }
 }

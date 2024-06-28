@@ -6,21 +6,20 @@ namespace FunctionOpdracht2
     {
         static void Main(string[] args)
         {
-
-            Program program= new Program();
-            int nummer = program.MijnFavorietNummer();//deze werkt nu niet, pas de code onder aan om het te laten werken
+            Program program = new Program();
+            int nummer = program.MijnFavorietNummer(); // deze werkt nu
 
             Console.WriteLine($"mijn favoriet nummer {nummer}");
         }
 
-        //laat deze function een 'int' teruggeven
-        private void MijnFavorietNummer()
+        // Laat deze function een 'int' teruggeven
+        private int MijnFavorietNummer()
         {
+            // Maak hier een variable van het type 'int' en geef die een waarde
+            int favorietNummer = 42;
 
-            //maak hier een variable van het type 'int' en geef die een waarde
-
-            //geef hier de variable terug
+            // Geef hier de variable terug
+            return favorietNummer;
         }
-
     }
 }

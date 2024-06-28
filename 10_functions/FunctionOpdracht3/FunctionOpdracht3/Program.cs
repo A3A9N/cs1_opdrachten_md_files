@@ -5,21 +5,22 @@ namespace FunctionOpdracht3
     internal class Program
     {
         static void Main(string[] args)
-        { 
-			//eerst even uit de static ontsnappen
+        {
+            // Eerst even uit de static ontsnappen
             Program program = new Program();
 
-            program.//3) roep hier de function aan
-
-            //1) zet deze 3 regels in een function (AskForAge) in program, en roep deze aan 
-                Console.WriteLine("What is your age?");
-                string age = Console.ReadLine();
-                Console.WriteLine($"You're age is {age}");
-            //eind
-
-
+            // 3) Roep hier de function aan
+            program.AskForAge();
         }
 
-        //2) maak hier je function met naam AskForAge
+        // 2) Maak hier je function met naam AskForAge
+        private void AskForAge()
+        {
+            // 1) Zet deze 3 regels in een function (AskForAge) in program, en roep deze aan 
+            Console.WriteLine("What is your age?");
+            string age = Console.ReadLine();
+            Console.WriteLine($"You're age is {age}");
+            // Eind
+        }
     }
 }
