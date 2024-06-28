@@ -8,20 +8,24 @@ namespace ArrayOpdracht3
         {
             Console.WriteLine("Hello, World!");
 
-            string[] nameparts = new string[] { "mar", "chu" , "io", "li",  "pika", "nk" };
+            string[] nameparts = new string[] { "mar", "chu", "io", "li", "pika", "nk" };
 
-
+            // Combinatievoorbeeld gegeven
             Console.WriteLine(nameparts[0] + nameparts[2]);
 
-            //maak nu de volgende namen en schrijf het naar de console:
+            // Maak nu de volgende namen en schrijf het naar de console:
 
-            //link
+            // link
+            Console.WriteLine(nameparts[3] + nameparts[5]);
 
-            //pikachu
+            // pikachu
+            Console.WriteLine(nameparts[4] + nameparts[1]);
 
-            //linkio
+            // linkio
+            Console.WriteLine(nameparts[3] + nameparts[2]);
 
-            //chumar
+            // chumar
+            Console.WriteLine(nameparts[1] + nameparts[0]);
         }
     }
 }
